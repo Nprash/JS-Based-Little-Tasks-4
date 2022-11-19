@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    margin: 20px auto;
+    /* margin-left: 70px; */
+}
+
+.container .top {
+    position: relative;
+    display: grid;
+    padding: 10px;
+    /* background:rgb(255, 244, 246); */
+    background:rgb(245, 250, 252);
+
+}
+
+.logopic {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.logo{
+    border-radius: 16px;
+}
+
+.text-point {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+}
+.text-point h2{
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 48px;
+    color: orangered;
+    font-weight: 900;
+}
+.text-point h1{
+    font-family: 'Rubik Microbe', cursive;
+    color: rgb(12, 113, 59);
+    font-weight: 800;
+}
+
+.hexagon {
+    position: relative;
+    margin: 50px auto;
+    width: 250px;
+    height: 145px;
+    border-radius: 4px;
+    background: rgb(235, 235, 235);
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin-left: 100px;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+}
+
+.hexagon:before {
+    transform: rotate(60deg);
+}
+
+.hexagon:after {
+    transform: rotate(-60deg);
+}
+/* .section1{
+    background:rgb(231, 246, 254);
+} */
+/* .hexagon:hover{
+    animation: animate 3s ease-in-out; 
+    transform: rotate(0.00019deg);
+    transition: all 0.9s ease;
+    transform: translateY(0px);
+
+} */
+/* @keyframes animate{
+    0%{
+    transform: rotate(0deg);
+    }
+    100%{
+    transform: rotate(3deg);
+
+    }
+} */
+ol.even1 {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: 0;
+    left: 50px;
+}
+ol.odd {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    margin-top: -60px;
+    margin-left: 323px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+ol.even2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    padding: 0;
+    left: 50px;
+    margin-bottom: 0px;
+}
+
+.image1{
+    position: absolute;
+    z-index: 1;
+    transform: rotate(90deg);
+    width: 150px;
+    margin: 0;
+    right: 10px;
+    bottom: -5px;
+    /* top: 0px; */
+}
+.text1{
+    font-family: cursive;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    transform: rotate(90deg);
+    left: -40px;
+    top: 60px;
+    font-weight: 500;
+    color: green;
+}
+.image3{
+    position: absolute;
+    z-index: 1;
+    transform: rotate(90deg);
+    border-radius: 50%;
+    width: 200px;
+    object-fit: cover;
+    margin: 0;
+    right: -20px;
+    bottom: 5px;
+    /* top: 0px; */
+}
+/* .image3:hover{
+    z-index: 1;
+    transform: rotate(270deg);
+    transform: scale(0.8);
+} */
+.text5{
+    font-family: cursive;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    transform: rotate(90deg);
+    left: -40px;
+    top: 90px;
+    font-weight: 500;
+    color: green;
+}
+
+.segment-3{
+    background: rgb(255, 249, 252);
+    display:flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    /* padding: 0 10px; */
+}
+.dia{
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.final-text{
+    font-family: cursive;
+    font-size: 48px;
+    color: green;
+    text-decoration-color: rgb(44, 44, 84);
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+.forbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+.btn-apply{
+    font-family: 'Rubik Microbe', cursive;
+    background-color: transparent;
+    color: orangered;
+    font-weight: 900;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    transition: all 0.3s linear;
+}
+.btn-apply:hover{
+    background: rgb(141, 217, 141);;
+}
+footer{
+    /* background-color: rgb(225, 240, 243); */
+    background:rgb(245, 250, 252);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
