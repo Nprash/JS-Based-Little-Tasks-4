@@ -568,6 +568,86 @@ footer {
     }
 
 }
+@media (max-width:751px){
+    .hexagon {
+        width: 200px;
+        height: 116px;
+        margin: 50px auto;
+    }
+    .image1{
+        width: 120px;
+        right: 15px;
+        bottom: -7px;
+    }
+    .text1 {
+        width: 150px;
+        left: -30px;
+        bottom: 23px;
+        font-size: 16px;
+    }
+    .image2 {
+        width: 170px;
+        right: -20px;
+        bottom: -2px;
+    }
+
+    .text2 {
+        width: 150px;
+        left: -30px;
+        bottom: 30px;
+        font-size: 16px;
+    }
+
+    .image3 {
+        width: 150px;
+        right: -20px;
+        bottom: 8px;
+    }
+
+    .text3 {
+        width: 160px;
+        left: -30px;
+        bottom: 15px;
+        font-size: 16px;
+    }
+
+    .image4 {
+        width: 120px;
+        right: 10px;
+        bottom: -5px;
+    }
+
+    .text4 {
+        width: 150px;
+        left: -30px;
+        bottom: 30px;
+        font-size: 16px;
+    }
+
+    .image5 {
+        width: 150px;
+        right: -10px;
+        bottom: 10px;
+    }
+    .text5 {
+        width: 150px;
+        left: -10px;
+        bottom: 50px;
+        font-size: 16px;
+    }
+    /* ol.even1 {
+        width: 100%;
+    } */
+
+    ol.even2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* ol.odd {
+        width: 35%;
+    } */
+}
 
 @media (max-width:685px) {
     .container {
