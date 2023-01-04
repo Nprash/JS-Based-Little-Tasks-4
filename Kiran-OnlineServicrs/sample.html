@@ -76,51 +76,72 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Hello, world!</title>
+    <style>
+      
+    </style>
 </head>
 
 <body>
     <h1>Hello, world!</h1>
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./icons8-k-soft-fill/business-3d-woman-running-an-online-business.png" class=" myimage" alt="work order">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./icons8-k-soft-fill/sammy-service-support.gif" class=" myimage" alt="work">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./icons8-k-soft-fill/sammy-online-payment.png" class=" myimage" alt="online-payment">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+    <div class="p-4">
+        <div>
+            <div class="row justify-content-around align-items-center gap-1" >
+                    <div id="list-example" class="list-group col-sm-3 ">
+                        <a class="list-group-item list-group-item-action active" href="#list-item-1">Online Admission Works</a>
+                        <a class="list-group-item list-group-item-action " href="#list-item-2">Slot Bookings</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Law-Consultency</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Awareness on L O I</a>
+                    </div>
+                
+                    <div style="height:300px; overflow-y: scroll;" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                        class="scrollspy-example col-sm-8  p-3 " tabindex="0" >
+                        <h4 id="list-item-1" class="m-0">Online Admission Works</h4>
+                        <div class="row justify-content-between align-items-center px-1" >
+                            <div class="col-sm-6 ">
+                                <p class="text-align-center m-0">intermediate and Degree Online Admission form filing, Migration Certificate Application  & all types of results etcetera.</p>
+                            </div>
+                            <div class="col-sm-4 ">
+                                <img src="./icons8-k-soft-fill/college going.png" class="img w-100 h-70" alt="imgwork">
+                            </div>
+                        </div>
+                        <h4 id="list-item-2" class="m-0">Slot Bookings</h4>
+                        <div class="row justify-content-between align-items-center px-1" >
+                            <div class="col-sm-6 ">
+                                <p class="text-align-center m-0">Passport slot bookings, certain Visa Validation checking through Embassy, etcetera.</p>
+                            </div>
+                            <div class="col-sm-4 ">
+                                <img src="./icons8-k-soft-fill/slotbooking.png" class="img-fluid " alt="imgwork">
+                            </div>
+                        </div>
+
+                        <h4 id="list-item-3" class="m-0">Law-Consultency</h4>
+                        <div class="row d-sm-inline-flex justify-content-between align-items-center px-1" >
+                            <div class="col-sm-6 ">
+                                <p class="text-align-center m-0"> Life saving advise is worth giving to people when you struggling to come out from the problems. Locally we dont have any consultency pertaining to lay and jurisdiction so any type of social issues Advises will be given according to local jurisdiction. If you have any problems lets take an appointment to get the proper solution to it.</p>
+                            </div>
+                            <div class="col-sm-4 ">
+                                <img src="./icons8-k-soft-fill/consultency.png" class="img w-100 h-70" alt="imgwork">
+                            </div>
+                        </div>
+                        <h4 id="list-item-4" class="m-0">Awareness on L O I</h4>
+                        <div class="row d-sm-inline-flex justify-content-between align-items-center px-1 flex-wrap" >
+                            <div class="col-sm-6 ">
+                                <p class="text-align-center m-0">lets book your Appointment to have time and life saving guidence through Law of Attraction class.</p>
+                            </div>
+                            <div class="col-sm-4 ">
+                                <img src="./icons8-k-soft-fill/teaching.png" class="img w-100 h-70" alt="imgwork">
+                            </div>
+                        </div>
+                        </div>
+                
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </button>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

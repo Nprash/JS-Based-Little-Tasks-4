@@ -108,25 +108,16 @@ window.addEventListener('scroll', function () {
 
 
 // for footer date
-let date = new Date();
-const footerdate = document.getElementById('date');
-footerdate.innerHTML = date.getFullYear();
 
-// for footer date
-// let dd = document.querySelector('#dd');
-// let mm = document.querySelector('#mm');
-// let yyy = document.querySelector('#yyy');
+const currentDate = new Date();
 
-// let dateDisplay = document.getElementById('datetime');
-// let fdate = document.getElementById('#fdate');
-// let fmonth = document.getElementById('#fmonth');
-// let fyear = document.getElementById('#fyear');
-// let frdate = new Date().getDate();
-// let frmonth = (new Date().getMonth() + 1);
-// let fryear = new Date().getFullYear();
-// fdate.innerHTML=frdate;
-// fmonth.innerHTML=frmonth;
-// fyear.innerHTML=fyear;
+const day = currentDate.getDate();
+const month = currentDate.getMonth() + 1; // months are 0-indexed, so we need to add 1
+const year = currentDate.getFullYear();
+
+document.getElementById('fdate').innerHTML = day+" /";
+document.getElementById('fmonth').innerHTML = month+" /";
+document.getElementById('fyear').innerHTML = year;
 
 
 
