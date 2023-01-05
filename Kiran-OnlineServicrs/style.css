@@ -118,6 +118,18 @@ ul a{
     margin-right: 20px;
     font-size: 20px;
 }
+/* for carousel  */
+#carouselExampleCaptions{
+    background-color: #007bff;
+}
+.carousel-inner h3, 
+.carousel-inner h4, 
+.carousel-inner p{
+    color: #007bff;
+}
+.carousel-inner p{
+    font-weight: 500;
+}
 
 @media (min-width: 730px){
     nav{
@@ -317,7 +329,7 @@ ul a{
 .title h2{
     text-align: center;
     text-transform: capitalize;
-    /* margin-top: 15px; */
+    margin: 20px;
 }
 
 
@@ -330,7 +342,7 @@ ul a{
 #payments,
 #contact{
     height: auto;
-    width:100%;
+    /* width:100%; */
 }
 
 #services{
