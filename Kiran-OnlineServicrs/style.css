@@ -130,6 +130,18 @@ ul a{
 .carousel-inner p{
     font-weight: 500;
 }
+#row1{
+    background-color: rgb(244, 255, 255);
+}
+#row2{
+    background-color: rgba(239, 239, 255, 0.866);
+}
+#row3{
+    background-color: rgb(253, 246, 255);
+}
+#row4{
+    background-color: rgb(244, 255, 255);
+}
 
 @media (min-width: 730px){
     nav{
@@ -348,3 +360,7 @@ ul a{
 #services{
     background: #fff;
 }
+/* iframe{
+    max-width: 650;
+    height: fit-content;
+} */
