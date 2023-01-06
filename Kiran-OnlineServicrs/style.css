@@ -134,15 +134,32 @@ ul a{
     background-color: rgb(244, 255, 255);
 }
 #row2{
-    background-color: rgba(239, 239, 255, 0.866);
+    background-color: #f1f4ff;
 }
 #row3{
     background-color: rgb(253, 246, 255);
+    /* background-color: #f9dee9; */
 }
 #row4{
     background-color: rgb(244, 255, 255);
 }
-
+#row5{
+    background-color: #fff5d6;
+}
+#row6{
+    background-color: #dbffc3;
+}
+#row7{
+    background-color: #fff7df;
+}
+.img-payment{
+    max-width: 280px;
+    height: auto;
+}
+.img-contact{
+    max-width: 280px;
+    /* height: auto; */
+}
 @media (min-width: 730px){
     nav{
         background:#97c8f1;
